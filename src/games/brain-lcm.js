@@ -5,7 +5,7 @@ const gcd = (a, b) => (b === 0 ? a : gcd(b, a % b));
 const lcm = (a, b) => (a * b) / gcd(a, b);
 const lcmOfThree = (a, b, c) => lcm(lcm(a, b), c);
 
-const description = 'Find the smallest common multiple of given numbers.'; xxs
+const description = 'Find the smallest common multiple of given numbers.'; 
 
 const generateRound = () => {
   const num1 = getRandomNumber(1, 20);

@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-const MAX_ROUNDS = 3; 
+const MAX_ROUNDS = 1; 
 
 const runGame = (description, generateRound) => {
   console.log('Welcome to the Brain Games!');
